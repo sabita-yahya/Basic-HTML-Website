@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Layout Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+.name-img img {
+    border-radius: 25%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.mid-top.column {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mid-top.column h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.mid-top.column p {
+    color: #666;
+}
+
+/* Main Column Styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-bar, .mid-bar, .right-bar {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.left-bar ul, .right-bar ul {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.left-bar ul li, .right-bar ul li {
+    margin: 10px 0;
+}
+
+.mid-bar section {
+    margin-bottom: 20px;
+}
+
+.mid-bar section a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+}
+
+/* Align main column sections horizontally */
+.left-bar, .mid-bar, .right-bar {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+}
+
+/* Bottom Section */
+.bottom {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.bottom .riview {
+    margin: 10px 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+}
